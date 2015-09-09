@@ -27,9 +27,10 @@
     'license': 'AGPL-3',
     'website': 'http://clvsol.com',
     'depends': [
-        'base',
+        'mail',
         ],
     'data': [
+        'todo_view.xml',
         ],
     'test': [],
     'installable': True,
