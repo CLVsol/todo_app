@@ -29,6 +29,7 @@
         'todo_app',
         ],
     'data': [
+        'todo_view.xml',
         ],
     'test': [],
     'installable': True,
