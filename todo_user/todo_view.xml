@@ -57,5 +57,27 @@
       </field>
     </record>
 
+    <!-- Menu Item to open To-Do Task list -->
+    <!--menuitem id="menu_todo_task"
+      name="To-Do Tasks"
+      parent="mail.mail_feeds"
+      sequence="20"
+      action="action_todo_task" /-->
+    <!-- Modify menu item -->
+    <record id="todo_app.menu_todo_task" model="ir.ui.menu">
+        <field name="name">My To-Do</field>
+    </record>
+
+    <!-- Action to open To-Do Task list -->
+    <!--act_window id="action_todo_task"
+      name="To-do Task"
+      res_model="todo.task"
+      view_mode="tree,form" /-->
+
+    <!-- Action to open To-Do Task list -->
+    <record model="ir.actions.act_window" id="todo_app.action_todo_task">
+        <field name="context">{'search_default_filter_my_tasks': True}</field>
+    </record>
+
   </data>
 </openerp>
