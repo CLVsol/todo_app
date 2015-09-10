@@ -29,6 +29,7 @@
         'todo_app',
         ],
     'data': [
+        'security/todo_access_rules.xml',
         'todo_view.xml',
         ],
     'test': [],
