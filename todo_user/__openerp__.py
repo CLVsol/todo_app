@@ -2,7 +2,6 @@
 ################################################################################
 #                                                                              #
 # Copyright (C) 2015-Today  Daniel Reis - Odoo Development Essential           #
-# Copyright (C) 2015-Today  Carlos Eduardo Vercelino - CLVsol                  #
 #                                                                              #
 # This program is free software: you can redistribute it and/or modify         #
 # it under the terms of the GNU Affero General Public License as published by  #
@@ -22,7 +21,7 @@
     'name': 'Multiuser To-Do',
     'summary': 'Extend the To-Do app to multiuser.',
     'version': '1.0',
-    'author': 'Carlos Eduardo Vercelino - CLVsol',
+    'author': 'Daniel Reis',
     'category': 'Generic Modules/Others',
     'license': 'AGPL-3',
     'website': 'http://clvsol.com',
