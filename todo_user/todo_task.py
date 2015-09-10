@@ -8,6 +8,7 @@ class TodoTask(models.Model):
 
     user_id = fields.Many2one('res.users', 'Responsible')
     date_deadline = fields.Date('Deadline')
+    # name = fields.Char('Description', required=True)
     name = fields.Char(help="What needs to be done?")
 
     # @api.multi
